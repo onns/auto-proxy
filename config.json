@@ -1,0 +1,33 @@
+{
+  "port": ":1996",
+  "rule": {
+    "/c/personal": {
+      "type": "match",
+      "dest": "https://calendar.google.com/calendar/ical/basic.ics"
+    },
+    "/c/movie": {
+      "type": "match",
+      "dest": "https://calendar.google.com/calendar/ical/basic.ics"
+    },
+    "/c/special-day": {
+      "type": "match",
+      "dest": "https://calendar.google.com/calendar/ical/basic.ics"
+    },
+    "/c/meeting": {
+      "type": "match",
+      "dest": "https://calendar.google.com/calendar/ical/basic.ics"
+    },
+    "/c/warning": {
+      "type": "match",
+      "dest": "https://calendar.google.com/calendar/ical/basic.ics"
+    },
+    "/c/task": {
+      "type": "match",
+      "dest": "https://calendar.google.com/calendar/ical/basic.ics"
+    },
+    "/c/event": {
+      "type": "match",
+      "dest": "https://calendar.google.com/calendar/ical/basic.ics"
+    }
+  }
+}
